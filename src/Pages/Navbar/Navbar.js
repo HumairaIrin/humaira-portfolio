@@ -37,7 +37,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='https://drive.google.com/file/d/1vinL6Ju_0Z-LxnDqKTGyia8hG9w6yKcr/view?usp=share_link' target="_blank" rel="noopener noreferrer" className="btn border-2 bg-[#ffffff24] md:z-100 text-white hover:bg-primary border-primary">See Resume</a>
+                <a href='https://drive.google.com/file/d/1vinL6Ju_0Z-LxnDqKTGyia8hG9w6yKcr/view?usp=share_link' target="_blank" rel="noopener noreferrer" className="btn border-2 bg-[#ffffff24] md:z-100 text-white hover:bg-gradient-to-r from-primary to-accent border-primary">See Resume</a>
             </div>
         </div>
     );
