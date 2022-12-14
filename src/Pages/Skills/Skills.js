@@ -10,7 +10,7 @@ import { DiNodejs } from 'react-icons/di';
 
 const Skills = () => {
     return (
-        <div className='w-4/5 mx-auto text-white flex flex-col items-center' id='skills'>
+        <div className='w-4/5 mx-auto mb-24 text-white flex flex-col items-center' id='skills'>
             <h4 className='text-3xl font-semibold mb-5 self-center '>My Skills <br /><span className='w-4/5 h-[1em] bg-white'></span></h4>
             <div className='grid grid-cols-3 md:grid-cols-5 gap-5 md:gap-[4rem] p-4'>
                 <div className='flex flex-col items-center'>

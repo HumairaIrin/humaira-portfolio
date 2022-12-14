@@ -1,4 +1,6 @@
 import './App.css';
+import About from './Pages/About/About';
+import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Footer/Footer';
 import MainBanner from './Pages/MainBanner/MainBanner';
@@ -13,6 +15,8 @@ function App() {
       <MainBanner></MainBanner>
       <Skills></Skills>
       <Projects></Projects>
+      <About></About>
+      <Blogs></Blogs>
       <Contact></Contact>
       <Footer></Footer>
     </div>

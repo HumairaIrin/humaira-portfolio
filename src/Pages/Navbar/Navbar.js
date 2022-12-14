@@ -19,6 +19,12 @@ const Navbar = () => {
                         <li>
                             <Link to='contact' className='hover:text-white text-primary' smooth={true} duration={500}>Contact Me</Link>
                         </li>
+                        <li>
+                            <Link to='about' className='hover:text-white text-primary md:z-100' smooth={true} duration={500}>About Me</Link>
+                        </li>
+                        <li>
+                            <Link to='blogs' className='hover:text-white text-primary md:z-100' smooth={true} duration={500}>Blogs</Link>
+                        </li>
                     </ul>
                 </div>
                 <a href='/' className="btn btn-ghost normal-case text-xl z-100">HM</a>
@@ -33,6 +39,12 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link to='contact' className='hover:text-white text-primary md:z-100' smooth={true} duration={500}>Contact Me</Link>
+                    </li>
+                    <li>
+                        <Link to='about' className='hover:text-white text-primary md:z-100' smooth={true} duration={500}>About Me</Link>
+                    </li>
+                    <li>
+                        <Link to='blogs' className='hover:text-white text-primary md:z-100' smooth={true} duration={500}>Blogs</Link>
                     </li>
                 </ul>
             </div>
